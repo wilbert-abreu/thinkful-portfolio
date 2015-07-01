@@ -1,0 +1,122 @@
+@media only screen and (max-width: 500px) {
+    .masthead-heading {
+        font-size: 3em;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading {
+        font-size: 3em;
+    }
+}
+
+.about-me-title {
+margin-top: 0.1em;
+font-size:6em;
+text-shadow: 2px 2px green;
+font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+	text-align: center;
+}
+
+body{
+    /*typography Declarations */
+    color: #222222;
+    font-size:1em;
+    font-family: "Open Sans", "Helvetica Neue",sans-serif;
+	padding-top:50px;
+}
+
+.masthead{
+ padding:6em 0;
+background-image:url("https://download.unsplash.com/photo-1418227165283-1595d13726cd");
+background-repeat: no-repeat;
+background-size: cover;
+border-top: solid 1em green;
+    border-radius: 5px 20px 5px;
+
+}
+
+.footer,.masthead-intro, .masthead-heading{
+ text-align:center;
+color:white;
+
+
+}
+
+.masthead-intro{
+ margin-bottom: 0.1em;
+font-size:2em;
+    font-family: "Gentium Book Basic", Georgia, sans-serif;
+}
+
+.masthead-heading{
+margin-top: 0.1em;
+font-size:6em;
+text-shadow: 2px 2px green;
+font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+a {
+color:green;
+text-decoration:none;
+     font-weight: bold;
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.question{
+    font-weight: bold;
+    color:green;
+     /* Typography Declarations */
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.footer {
+background-color: black;
+    padding:2em;
+    border-radius: 5px 20px 5px;
+      
+}
+
+
+.footer ul li{
+list-style: none;
+display:inline-block;
+padding:1em;
+margin-right:25;
+font-weight: bold;
+}
+
+.footer > p {
+ color: white;
+
+}
+
+.introduction > p,
+.location > p,
+.content-footer > p {
+    /* Typography Declarations */
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+.project-name{
+text-decoration: underline
+}
